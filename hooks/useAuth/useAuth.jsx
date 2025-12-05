@@ -19,7 +19,7 @@ export const useAuth = (isLogin) => {
       
       
       // Change l'URL selon que c'est login ou signup
-      const url = isLogin ? "http://74.241.129.210:8000/login" : "http://74.241.129.210:8000/register";
+      const url = isLogin ? "http://0.0.0.0:8000/login" : "http://0.0.0.0:8000/register";
 
 
       const res = await fetch(url, {

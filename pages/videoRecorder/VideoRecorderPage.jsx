@@ -111,7 +111,7 @@ const sendFrameHttp = async (blob) => {
   formDataToSend.append("session_id", "live_" + Date.now()); // <-- Required
 
   try {
-    const res = await fetch("http://74.241.129.210:8000/process_realtime", {
+    const res = await fetch("http://0.0.0.0:8000/process_realtime", {
       method: "POST",
       headers: { 
         Authorization: `Bearer ${token}` 
@@ -196,7 +196,7 @@ const startLiveRecording = () => {
     videoFormData.append("return_frame_data", "true");
 
     try {
-      const response = await fetch("http://74.241.129.210:8000/process_video", {
+      const response = await fetch("http://0.0.0.0:8000/process_video", {
         method: "POST",
         headers: {
           Authorization: `Bearer ${token}`,
@@ -262,7 +262,7 @@ const startLiveRecording = () => {
     imageFormData.append("exercise", formData.exercice);
 
     try {
-      const response = await fetch("http://74.241.129.210:8000/process_image", {
+      const response = await fetch("http://0.0.0.0:8000/process_image", {
         method: "POST",
         headers: {
           Authorization: `Bearer ${token}`,
@@ -309,7 +309,7 @@ const startLiveRecording = () => {
     videoFormData.append("return_frame_data", "true");
 
     try {
-      const response = await fetch("http://74.241.129.210:8000/process_video", {
+      const response = await fetch("http://0.0.0.0:8000/process_video", {
         method: "POST",
         headers: {
           Authorization: `Bearer ${token}`,

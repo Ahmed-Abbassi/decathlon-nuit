@@ -1,0 +1,773 @@
+{
+    "sports": {
+      "fitness": {
+            "squat": {
+                "checks": [
+                    {
+                        "name": "left_knee_angle",
+                        "min": 80,
+                        "max": 100,
+                        "description": "Front knee around 90\u00b0"
+                    },
+                    {
+                        "name": "right_knee_angle",
+                        "min": 80,
+                        "max": 100,
+                        "description": "Back knee around 90\u00b0"
+                    },
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 0,
+                        "max": 15,
+                        "description": "Torso upright"
+                    }
+                ],
+                "imgurl":"https://www.linternaute.fr/sport/pratique/1448754-squats-fessiers-cuisses-les-exercices-de-base/",
+                "gifurl" : "https://images.squarespace-cdn.com/content/v1/54f9e84de4b0d13f30bba4cb/1530743652042-8AW6T0MPM6Q0JYEV6AO9/image-asset.gif"
+            },
+            "planke": {
+                "checks": [
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 0,
+                        "max": 10,
+                        "description": "Back straight"
+                    },
+                    {
+                        "name": "left_elbow_angle",
+                        "min": 80,
+                        "max": 100,
+                        "description": "Elbow at 90\u00b0"
+                    },
+                    {
+                        "name": "right_elbow_angle",
+                        "min": 80,
+                        "max": 100,
+                        "description": "Elbow at 90\u00b0"
+                    }
+                ],
+                 "imgurl":"https://images.bonnier.cloud/files/ifo/production/20210428225245/ifo_152625-12-0003-QxM1jjls3wwBwMd9DU592A.jpg",
+                "gifurl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3UAlxAUT-Ro9T57fyQnbpZnoSiQAJoaDBVQ&s"
+            },
+            "pushup": {
+                "checks": [
+                    {
+                        "name": "left_elbow_angle",
+                        "min": 80,
+                        "max": 100,
+                        "description": "Elbow at 90\u00b0 during descent"
+                    },
+                    {
+                        "name": "right_elbow_angle",
+                        "min": 80,
+                        "max": 100,
+                        "description": "Elbow at 90\u00b0 during descent"
+                    },
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 0,
+                        "max": 10,
+                        "description": "Keep back straight"
+                    }
+                ],
+                "imgurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_9M-HSllwKK1jktKBN0M2nRWYiL-hrV5v0A&s",
+                "gifurl" : "https://cdn.jefit.com/assets/img/exercises/gifs/47.gif"
+            },
+            "products":{
+                "product1":{
+                    "name" : "Sac-Box",
+                    "imgurl" : "https://contents.mediadecathlon.com/p1990723/k$50e61892ed5039c42214c1d19f78f6f6/sq/sac-de-frappe-piedpoing-32-kg-adulte.jpg?format=auto&f=1800x1800",
+                    "nameurl" : "https://www.decathlon.fr/p/sac-de-frappe-pied-poing-32-kg-adulte/_/R-p-327521?mc=8600730&c=noir"
+                }
+            }
+         } ,  
+       "golf": {
+            "chipping": {
+                "checks": [
+                    {
+                        "name": "left_knee_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Slight bend for control"
+                    },
+                    {
+                        "name": "right_knee_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Slight bend for control"
+                    },
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 20,
+                        "max": 35,
+                        "description": "Forward tilt for accuracy"
+                    },
+                    {
+                        "name": "right_wrist_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Keep wrist stable"
+                    }
+                ],
+                "imgurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQpLhiXN6QACb_P708zIC9sN9abm71iS4gGA&s",
+                "gifurl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbHlKpUe65uNc3EM77QvBXn7s28nh7pf9tCA&s"
+            },
+            "driving": {
+                "checks": [
+                    {
+                        "name": "left_knee_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Slight bend for stability"
+                    },
+                    {
+                        "name": "right_knee_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Slight bend for stability"
+                    },
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 25,
+                        "max": 40,
+                        "description": "Forward tilt for power"
+                    },
+                    {
+                        "name": "left_elbow_angle",
+                        "min": 150,
+                        "max": 180,
+                        "description": "Keep left arm straight"
+                    }
+                ],
+                "imgurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNVrO3Q3NrgKqFWgznwtGNwzpVBydbuWPhCQ&s",
+                "gifurl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHe6s7vpED7Ds2TFySc_XRq7wvO9psrWtPmQ&s"
+            },
+            "putt": {
+                "checks": [
+                    {
+                        "name": "left_knee_angle",
+                        "min": 170,
+                        "max": 180,
+                        "description": "Nearly straight knees"
+                    },
+                    {
+                        "name": "right_knee_angle",
+                        "min": 170,
+                        "max": 180,
+                        "description": "Nearly straight knees"
+                    },
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 15,
+                        "max": 25,
+                        "description": "Moderate forward tilt"
+                    }
+                ],
+                "imgurl":"https://www.golfcare.co.uk/media/j3dbegp0/golf-putting-tips-1.jpg?rmode=max&width=500",
+                "gifurl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiXjPMvHazPxmbyIcA1RzhwCl7VhAJnIIxGw&s"
+            },
+            "swing": {
+                "checks": [
+                    {
+                        "name": "left_knee_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Slightly bent left knee"
+                    },
+                    {
+                        "name": "right_knee_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Slightly bent right knee"
+                    },
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 20,
+                        "max": 40,
+                        "description": "Torso forward tilt for swing"
+                    },
+                    {
+                        "name": "left_elbow_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Left arm mostly straight during swing"
+                    }
+                ],
+                "imgurl":"https://fontdelllop.com/?attachment_id=19972",
+                "gifurl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7XItqXaVrVZz6VXFO4E4CLIJUpyjHSMkprw&s"
+            },
+              "products":{
+                "product1":{
+                                "name" : "Sac-golf",
+                    "imgurl" : "https://contents.mediadecathlon.com/p2727729/k$c3b285d9a62958e6172194a447c98fea/sq/pack-de-golf-droitier-regular-wilson-ultra-hl.jpg?format=auto&f=1800x1800",
+                    "nameurl" : "https://www.decathlon.fr/p/pack-de-golf-droitier-regular-wilson-ultra-hl/_/R-p-X8923624?mc=8923624"
+                }
+            }
+        },
+        "gym": {
+            "bench_press": {
+                "checks": [
+                    {
+                        "name": "left_elbow_angle",
+                        "min": 70,
+                        "max": 110,
+                        "description": "Elbows at 90\u00b0 during press"
+                    },
+                    {
+                        "name": "right_elbow_angle",
+                        "min": 70,
+                        "max": 110,
+                        "description": "Elbows at 90\u00b0 during press"
+                    },
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 0,
+                        "max": 10,
+                        "description": "Back neutral, no arching"
+                    }
+                ],
+                   "imgurl":"https://cdn.shopify.com/s/files/1/1497/9682/files/MicrosoftTeams-image_11_4ab5039d-cc21-4ca3-b017-db187bd3c84c.jpg?v=1667313462",
+                "gifurl":"https://gymvisual.com/img/p/4/7/6/4/4764.gif"
+            },
+            "biceps_curl": {
+                "checks": [
+                    {
+                        "name": "left_elbow_angle",
+                        "min": 40,
+                        "max": 70,
+                        "description": "Elbow flexion at top of curl"
+                    },
+                    {
+                        "name": "right_elbow_angle",
+                        "min": 40,
+                        "max": 70,
+                        "description": "Elbow flexion at top of curl"
+                    },
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 0,
+                        "max": 10,
+                        "description": "Torso stays straight, no leaning"
+                    }
+                ],
+                  "imgurl":"data:image/jpeg;base64,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",
+                "gifurl":"https://www.strengthlog.com/wp-content/uploads/2020/02/Hantelcurl.gif"
+            },
+            "deadlift": {
+                "checks": [
+                    {
+                        "name": "left_knee_angle",
+                        "min": 100,
+                        "max": 150,
+                        "description": "Semi-flexed knee position"
+                    },
+                    {
+                        "name": "right_knee_angle",
+                        "min": 100,
+                        "max": 150,
+                        "description": "Semi-flexed knee position"
+                    },
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 15,
+                        "max": 40,
+                        "description": "Correct hip hinge, back straight"
+                    }
+                ],
+                  "imgurl":"data:image/jpeg;base64,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",
+                "gifurl":"https://www.journalmenu.com/wp-content/uploads/2018/03/deadlift-gif-side.gif"
+            },
+            "shoulder_press": {
+                "checks": [
+                    {
+                        "name": "left_elbow_angle",
+                        "min": 80,
+                        "max": 110,
+                        "description": "Arms push overhead with correct elbow angle"
+                    },
+                    {
+                        "name": "right_elbow_angle",
+                        "min": 80,
+                        "max": 110,
+                        "description": "Arms push overhead with correct elbow angle"
+                    },
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 0,
+                        "max": 15,
+                        "description": "Torso stays neutral"
+                    }
+                ],
+                  "imgurl":"data:image/jpeg;base64,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",
+                "gifurl":"https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/11/Seated-dumbbell-shoulder-press.gif?resize=600%2C600&ssl=1"
+            },
+                  "products":{
+                "product1":{
+                    "name" : "Paire d'haltères",
+                    "imgurl" : "https://contents.mediadecathlon.com/p2720129/1cr1/k$47423c440776298373204a99089eeffb/halteres-tone-dumbell-25-kgs-noir.jpg?format=auto&f=512x0",
+                    "nameurl" : "https://www.decathlon.tn/p/130443-28409-paire-d-halteres-fitness-25-kg-fonte-a-80-recyclee-noir.html"
+                },
+                "product2":{
+                    "name" : "Élastique de musculation",
+                    "imgurl" : "https://contents.mediadecathlon.com/p2719488/1cr1/k$81a90ec3212d627d138e78c0f0b87790/elastique-cross-training-training-band-15-kg.jpg?format=auto&f=512x0",
+                    "nameurl" : "https://www.decathlon.tn/p/187031-3468-elastique-de-musculation-training-band-15-kg-vert.html"
+                },
+                "product3":{
+                    "name" : "Banc de musculation",
+                    "imgurl" : "https://contents.mediadecathlon.com/p2973834/1cr1/k$256c01d4dd44f4df6e16bd67d0e316d1/banc-de-musculation-developpe-couche-80-kg-pliable.jpg?format=auto&f=512x0",
+                    "nameurl" : "https://www.decathlon.tn/p/360865-125258-banc-de-musculation-developpe-couche-80-kg-pliable.html"
+                }
+            }
+        },
+        "gymnastyque": {
+            "bridge": {
+                "checks": [
+                    {
+                        "name": "left_elbow_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Arms straight supporting body"
+                    },
+                    {
+                        "name": "right_elbow_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Arms straight supporting body"
+                    },
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 140,
+                        "max": 180,
+                        "description": "Back arched correctly"
+                    }
+                ],
+                "imgurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQISaaQjKaJH4CRdf3n6RRRJ447P24k0bTFzA&s",
+                "gifurl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJrVb3G2JTUeHYPt4AptzCPrfw9JuScC0Fg&s"
+            },
+            "cartwheel": {
+                "checks": [
+                    {
+                        "name": "left_arm_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Arm straight during rotation"
+                    },
+                    {
+                        "name": "right_arm_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Arm straight during rotation"
+                    },
+                    {
+                        "name": "left_leg_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Leg straight during rotation"
+                    },
+                    {
+                        "name": "right_leg_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Leg straight during rotation"
+                    }
+                ],
+                "imgurl":"https://images.squarespace-cdn.com/content/v1/6020840e6348a502c3dd2865/1628743952048-3DTCTZBT6JFPD9WZWJW8/Cartwheel+beam.png",
+                "gifurl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-DN-HCfwr0PxaDGB1Z1ZYP2yQlkVr8257OQ&s"
+            },
+            "handstand": {
+                "checks": [
+                    {
+                        "name": "left_shoulder_angle",
+                        "min": 170,
+                        "max": 180,
+                        "description": "Shoulders straight"
+                    },
+                    {
+                        "name": "right_shoulder_angle",
+                        "min": 170,
+                        "max": 180,
+                        "description": "Shoulders straight"
+                    },
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 0,
+                        "max": 10,
+                        "description": "Keep torso upright"
+                    }
+                ],
+                "imgurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2V5G6CE2m7lHVSWus-Bc7l3vhhOnaf7jrYw&s",
+                "gifurl" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-hPkK2N5Ke-DuXdHOH5_uiiLXoC3FzDctXg&s"
+            },
+            "splits": {
+                "checks": [
+                    {
+                        "name": "left_knee_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Front leg straight"
+                    },
+                    {
+                        "name": "right_knee_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Back leg straight"
+                    },
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 0,
+                        "max": 10,
+                        "description": "Torso upright"
+                    }
+                ],
+                "imgurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRvmUkTQpgjKu8k0IqFzBpDIWGMIY3Opw8vQ&s",
+                "gifurl" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgaDCX03yXfUsKoCjg_V2owcgJOfMWToXzKg&s"
+            },
+                 "products":{
+                "product1":{
+                    "name" : "Sac",
+                    "imgurl" : "https://contents.mediadecathlon.com/p2161169/1cr1/k$bbd724010de90a72409e266044a48426/sac-de-sport-hardcase-45-litres-bleu-bordeaux.jpg?f=3000x0&format=auto",
+                    "nameurl" : "https://www.decathlon.tn/p/197497-99998-sac-sport-45l-hardcase-bleu.html"
+                }
+            }
+            },
+        "pilates": {
+            "hundred": {
+                "checks": [
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 30,
+                        "max": 50,
+                        "description": "Ab curl up properly without collapsing"
+                    },
+                    {
+                        "name": "left_hip_angle",
+                        "min": 80,
+                        "max": 100,
+                        "description": "Legs lifted about 90\u00b0"
+                    },
+                    {
+                        "name": "right_hip_angle",
+                        "min": 80,
+                        "max": 100,
+                        "description": "Legs lifted about 90\u00b0"
+                    }
+                ],
+                 "imgurl":"https://www.shutterstock.com/shutterstock/photos/1965377935/display_1500/stock-vector-pilates-sequence-vector-illustration-the-hundred-1965377935.jpg",
+                "gifurl":"https://downloads.ctfassets.net/6ilvqec50fal/6ShEacxqUzZZEztCzSOjAo/9e17daa85c5c63e16d715b35fa110919/Pilates_Hundred_GIF.gif"
+            },
+            "plank_pilates": {
+                "checks": [
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 0,
+                        "max": 10,
+                        "description": "Neutral spine alignment"
+                    },
+                    {
+                        "name": "left_elbow_angle",
+                        "min": 150,
+                        "max": 180,
+                        "description": "Arms straight and stable"
+                    },
+                    {
+                        "name": "right_elbow_angle",
+                        "min": 150,
+                        "max": 180,
+                        "description": "Arms straight and stable"
+                    }
+                ],
+                "imgurl":"https://www.shutterstock.com/image-vector/exercise-diagram-forearm-plank-knee-260nw-1442621450.jpg",
+                "gifurl":"https://i.pinimg.com/originals/71/39/d1/7139d152892319a5f61b64bab693c685.gif"
+            },
+            "rollup": {
+                "checks": [
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 70,
+                        "max": 120,
+                        "description": "Torso rolls smoothly forward"
+                    },
+                    {
+                        "name": "left_knee_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Legs extended straight"
+                    },
+                    {
+                        "name": "right_knee_angle",
+                        "min": 160,
+                        "max": 180,
+                        "description": "Legs extended straight"
+                    }
+                ],
+                "imgurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5qJogBqcdSu7I38a3gxmrIO4WyzaI7SCgbQ&s",
+                "gifurl":"https://www.verywellfit.com/thmb/pHY1thh0e7me7Pwe9uhqnww3fX4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Verywell-02-2704611-RollUp-598a1854aad52b001006cf2d.gif"
+            },
+            "teaser": {
+                "checks": [
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 20,
+                        "max": 40,
+                        "description": "Torso leaning back with core engagement"
+                    },
+                    {
+                        "name": "left_knee_angle",
+                        "min": 150,
+                        "max": 180,
+                        "description": "Legs extended"
+                    },
+                    {
+                        "name": "right_knee_angle",
+                        "min": 150,
+                        "max": 180,
+                        "description": "Legs extended"
+                    }
+                ],
+                "imgurl":"https://i.pinimg.com/736x/04/ac/0e/04ac0e3edabdf1d9089f10145ec348d7.jpg",
+                "gifurl":"https://www.powerpilates.com/learn/41.gif"
+            },
+            "products":{
+                "product1":{
+                    "name" : "ANNEAU PILATES",
+                    "imgurl" : "https://contents.mediadecathlon.com/p2718906/1cr1/k$fd1b3c941debf7f884146f2a5eec00b3/anneau-pilates-ring-noir.jpg?format=auto&f=512x0",
+                    "nameurl" : "https://www.decathlon.tn/p/9224-78545-anneau-pilates-ring-noir.html"
+                },
+                "product2":{
+                    "name" : "Tapis de Pilates ",
+                    "imgurl" : "https://contents.mediadecathlon.com/p2940138/1cr1/k$9b91329decd189661fc9274d6c571df7/tapis-de-pilates-confort-500-bordeaux-170-cm-x-58-cm-x-15-mm.jpg?format=auto&f=512x0",
+                    "nameurl" : ""
+                },
+                "product3":{
+                    "name" : "Rouleau en mousse",
+                    "imgurl" : "https://contents.mediadecathlon.com/p2784414/1cr1/k$11041bffa72095b0ab17590c499f6cfd/rouleau-en-mousse-de-pilates-longueur-38-cm-diametre-13-cm-foam-roller-violet.jpg?format=auto&f=512x0",
+                    "nameurl" : "https://www.decathlon.tn/p/358115-103564-rouleau-en-mousse-de-pilates-longueur-38-cm-diametre-13-cm-foam-roller-violet.html"
+                }
+        },
+        "tennis": {
+            "backhand": {
+                "checks": [
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 5,
+                        "max": 25,
+                        "description": "Balanced backhand stance"
+                    },
+                    {
+                        "name": "left_elbow_angle",
+                        "min": 70,
+                        "max": 110,
+                        "description": "Main hitting arm elbow angle"
+                    },
+                    {
+                        "name": "right_elbow_angle",
+                        "min": 90,
+                        "max": 130,
+                        "description": "Support arm stabilizing angle"
+                    }
+                ],
+                "imgurl":"https://bouncetennis.wordpress.com/wp-content/uploads/2013/07/step90b.jpg",
+                "gifurl":"https://mytennishq.com/wp-content/uploads/2020/01/federer-backhand-swing.gif"
+            },
+            "forehand": {
+                "checks": [
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 10,
+                        "max": 35,
+                        "description": "Forward athletic stance"
+                    },
+                    {
+                        "name": "right_elbow_angle",
+                        "min": 80,
+                        "max": 120,
+                        "description": "Forehand elbow loading angle"
+                    },
+                    {
+                        "name": "right_shoulder_angle",
+                        "min": 40,
+                        "max": 80,
+                        "description": "Racket preparation shoulder rotation"
+                    }
+                ],
+                 "imgurl":"https://www.patcash.co.uk/wp-content/uploads/2018/02/Tennis-forehand-volley-stroke-technique-swing-Pete-Sampras.jpg",
+                "gifurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVdB99EeGNGPeu8vXH8o0tQ85sepISpnPAtg&s"
+            },
+            "serve": {
+                "checks": [
+                    {
+                        "name": "right_elbow_angle",
+                        "min": 150,
+                        "max": 180,
+                        "description": "Full racket drop/extension"
+                    },
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 20,
+                        "max": 45,
+                        "description": "Serve shoulder-over-shoulder angle"
+                    },
+                    {
+                        "name": "left_knee_angle",
+                        "min": 150,
+                        "max": 175,
+                        "description": "Knee slight bend before jump"
+                    }
+                ],
+                 "imgurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI8Vq4iiVBKcBp-ILt5-FnfIJdFfhBUtiT-g&s",
+                "gifurl":"https://newsimg.bbc.co.uk/media/images/40781000/gif/_40781796_power_serve_anim.gif"
+            },
+            "volley": {
+                "checks": [
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 5,
+                        "max": 20,
+                        "description": "Forward ready stance"
+                    },
+                    {
+                        "name": "right_elbow_angle",
+                        "min": 80,
+                        "max": 110,
+                        "description": "Firm compact volley arm"
+                    },
+                    {
+                        "name": "left_knee_angle",
+                        "min": 140,
+                        "max": 170,
+                        "description": "Split-step knee bend"
+                    }
+                ],
+                 "imgurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6KxQ8VATf-btrFlJcA31cE6Ej6MN8sIftCw&s",
+                "gifurl":"https://newsimg.bbc.co.uk/media/images/40790000/gif/_40790884_back_hand_volley_anim.gif"
+            },
+             "products":{
+                "product1":{
+                    "name" : "Balle de tennis",
+                    "imgurl" : "https://contents.mediadecathlon.com/p2716332/1cr1/k$43cee21ea2c2ed0040eaa3aa68e1bc7d/balle-de-tennis-tb1603-jaune.jpg?format=auto&f=512x0",
+                    "nameurl" : "https://www.decathlon.tn/p/327414-53124-balle-de-tennis-tb1603-jaune.html"
+                },
+                "product2":{
+                    "name" : "Raquettes",
+                    "imgurl" : "https://contents.mediadecathlon.com/p2486860/1cr1/k$59240937be2e5fd5d49c3a7e20433b92/raquette-de-tennis-enfant-tr130-25quote-jaune.jpg?format=auto&f=512x0",
+                    "nameurl" : "https://www.decathlon.tn/p/309594-46322-raquette-de-tennis-enfant-easy-25-jaune.html"
+                },
+                "product3":{
+                    "name" : "Sac de tennis",
+                    "imgurl" : "https://contents.mediadecathlon.com/p2295867/1cr1/k$3b9f8b8a088b4f08d4aaa9746d065137/sac-de-sports-de-raquettes-artengo-500-m-gris-orange.jpg?format=auto&f=512x0",
+                    "nameurl" : "https://www.decathlon.tn/p/160652-82613-sac-de-tennis-artengo-l-team-9-raquettes-noir-bleu.html"
+                }
+             }
+        },
+        "yoga": {
+            "downward_dog": {
+                "checks": [
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 35,
+                        "max": 55,
+                        "description": "Hips high, spine long (~45\u00b0)"
+                    },
+                    {
+                        "name": "left_knee_angle",
+                        "min": 160,
+                        "max": 185,
+                        "description": "Legs straight"
+                    },
+                    {
+                        "name": "right_knee_angle",
+                        "min": 160,
+                        "max": 185,
+                        "description": "Legs straight"
+                    }
+                ],
+                "imgurl":"https://yogaselection.com/wp-content/uploads/2023/08/downward-facing-dog-pose-tutorial-1024x1024.jpg",
+                "gifurl":"https://images.squarespace-cdn.com/content/v1/5d31ed671abe780001b2964d/1596815673056-G7I3XAKUCJCT1YF728C0/Koya+Webb+doing+Dolphin+Pose"
+            },
+            "mountain_pose": {
+                "checks": [
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 0,
+                        "max": 10,
+                        "description": "Torso should be vertical"
+                    },
+                    {
+                        "name": "left_knee_angle",
+                        "min": 170,
+                        "max": 185,
+                        "description": "Left knee fully extended"
+                    },
+                    {
+                        "name": "right_knee_angle",
+                        "min": 170,
+                        "max": 185,
+                        "description": "Right knee fully extended"
+                    }
+                ],
+                "imgurl":"https://www.verywellfit.com/thmb/Cq397HlPq6j9j1aPOZGaXrGvyKE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mountainpose-5c536e174cedfd0001efd515.jpg",
+                "gifurl" : "https://i.pinimg.com/originals/dd/bb/2e/ddbb2e6ad3d6745a2fc217fbf8881a36.gif"
+            },
+            "tree_pose": {
+                "checks": [
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 0,
+                        "max": 12,
+                        "description": "Torso balanced and vertical"
+                    },
+                    {
+                        "name": "right_knee_angle",
+                        "min": 160,
+                        "max": 185,
+                        "description": "Standing leg straight"
+                    }
+                ],
+                "imgurl":"https://sensational-yoga-poses.com/0-images/yoga-tree-pose.jpg",
+                "gifurl" : "https://media.post.rvohealth.io/wp-content/uploads/sites/2/2020/06/400x400-Tree_Pose.gif"
+            },
+            "warrior_2": {
+                "checks": [
+                    {
+                        "name": "left_knee_angle",
+                        "min": 80,
+                        "max": 100,
+                        "description": "Front knee near 90\u00b0"
+                    },
+                    {
+                        "name": "right_knee_angle",
+                        "min": 160,
+                        "max": 185,
+                        "description": "Back leg extended"
+                    },
+                    {
+                        "name": "torso_tilt_deg",
+                        "min": 0,
+                        "max": 15,
+                        "description": "Torso upright"
+                    }
+                ],
+                "imgurl":"https://bod-blog-assets.prod.cd.beachbodyondemand.com/bod-blog/wp-content/uploads/2018/06/Warrior-Poses-Warrior-1-Warrior-2.jpg",
+                "gifurl" : "https://images.squarespace-cdn.com/content/v1/5d31ed671abe780001b2964d/1612819216058-HWAMNV9TF174M0DUVD53/Briohny+Smith+transitioning+from+Warrior+2+to+Reverse+Warrior"
+            },
+             "products":{
+                "product1":{
+                    "name" : "Brique de yoga",
+                    "imgurl" : "https://contents.mediadecathlon.com/p2940857/1cr1/k$961764e3e671809e0cc568c6376a1510/brique-yoga-mousse-integrant-20-de-matiere-recyclee-acajou.jpg?format=auto&f=512x0",
+                    "nameurl" : "https://www.decathlon.tn/p/346649-79491-brique-de-yoga-en-mousse-acajou.html"
+                },
+                "product2":{
+                    "name" : "Sangle de yoga",
+                    "imgurl" : "https://contents.mediadecathlon.com/p2918791/1cr1/k$df9dc9d1f9f46b3428a2aa179a9bed3d/prod.jpg?format=auto&f=512x0",
+                    "nameurl" : "https://www.decathlon.tn/p/183211-112928-sangle-de-yoga-25-metres-acajou.html"
+                },
+                "product3":{
+                    "name" : "Tapis yoga light",
+                    "imgurl" : "https://contents.mediadecathlon.com/p2940018/1cr1/k$68245e76e297eb06a51bef746c3186c8/tapis-yoga-light-xl-200-x-75-cm-x-5mm-integrant-20-de-matiere-recyclee-gris.jpg?format=auto&f=512x0",
+                    "nameurl" : "https://www.decathlon.tn/p/341124-79492-tapis-yoga-light-xl-200-x-75-cm-x-5mm-gris.html"
+                }
+            }
+        }
+    }
+    }
+}
